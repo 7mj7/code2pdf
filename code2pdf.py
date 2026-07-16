@@ -70,7 +70,10 @@ class Code2PDF:
             '.sql',
             
             # Otros
-            '.dockerfile', '.gitignore', '.editorconfig'
+            '.dockerfile', '.gitignore', '.editorconfig',
+
+            # Agregar más extensiones si es necesario
+            '.feature', 'blade.',
         }
     
     def should_include_file(self, file_path):
